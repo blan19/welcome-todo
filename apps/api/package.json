@@ -14,10 +14,10 @@
     "preset": "jest-presets/jest/node"
   },
   "dependencies": {
+    "@welcome/logger": "workspace:*",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "logger": "workspace:*",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
@@ -28,12 +28,12 @@
     "@types/morgan": "^1.9.2",
     "@types/node": "^15.12.2",
     "@types/supertest": "^2.0.12",
+    "@welcome/eslint-config-custom-server": "workspace:*",
+    "@welcome/jest-presets": "workspace:*",
+    "@welcome/tsconfig": "workspace:*",
     "eslint": "^7.32.0",
-    "eslint-config-custom-server": "workspace:*",
     "jest": "^26.6.3",
-    "jest-presets": "workspace:*",
     "supertest": "^6.2.4",
-    "tsconfig": "workspace:*",
     "tsup": "^6.2.3",
     "typescript": "^4.8.3"
   }
